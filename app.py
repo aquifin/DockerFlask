@@ -49,4 +49,4 @@ def delete_task(id):
 	
 if __name__ == "__main__":
     create_database()
-    app_flask.run(debug=True)
+    app_flask.run(debug=True,host='0.0.0.0', port=5000)
